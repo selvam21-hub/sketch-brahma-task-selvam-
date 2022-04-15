@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    background-color: rgb(187, 191, 193);
+}
+.header1{
+    flex-basis: 50%;
+}
+h1{
+    font-size: 64px;
+    color: rgb(129, 138, 138);
+    
+ text-shadow: 0 1px 0 rgb(0, 0, 0),
+ 0px 2px 0 rgb(64, 4, 4),
+ 0px 3px 0 rgb(77, 61, 6),
+ 0px 4px 0 rgb(6, 123, 68),
+ 0px 5px 0 rgb(11, 3, 43),
+ 0 6px 0 #CCC,
+ 0 7px 0 #CCC,
+ 0 8px 0 #CCC,
+ 0 9px 0 rgb(0, 0, 0),
+ 0 30px 10px rgba(0, 0, 0, .3)
+
+}
+.heading{
+    color:rgb(187, 191, 193);
+    font-size: 40px;
+    letter-spacing: 0.3rem;
+    max-width: 500px;
+    margin: auto;
+    font-family:'Square Peg', cursive;
+    margin-bottom: 20px;
+}
+form{
+    flex-basis: 30%;
+    padding-right:10rem;
+    border-left: 10px solid rgb(187, 191, 193);
+    padding-left: 7rem;
+}
+.block{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 30px;
+    background-color: rgb(27, 25, 25);
+}
+    
+
+.header
+{
+    width: 200px;
+    height: 180px;
+    
+}
+
+
+ .search-bar
+ {
+    width:300px;
+    height: 40px;
+    outline:none;
+    border-radius: 56px;
+    background-color:rgb(187, 191, 193);
+    color: rgb(0, 0, 0);
+    padding: 20px 10px 20px 20px;
+    border: 1px solid rgb(27, 25, 25);
+     
+
+      
+ }
+ .section
+ {
+     width:80%;
+     margin:0 auto;
+     display:flex;
+     justify-content: space-around;
+    flex-wrap: wrap;
+ }
+
+ 
+.window
+{
+    width:300px;
+    height:400;
+    margin:30px 0px 30px 0px;
+    border: 2.5px solid rgb(0, 0, 0);
+    background-color: rgb(187, 191, 193);
+}
+
+
+.window img{
+    width:100%;
+    height: 40vh;
+}
+.window .sec-window{
+    color:rgb(0, 0, 0);  
+    text-align: center;
+    margin: 20px 0px;
+    background-color:rgb(187, 191, 193);
+    
+  }
+ 
+  .window .sec-window h2{
+      margin:0;
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 15px;
+  }
+  .window .sec-window p{
+    margin: 0;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-bottom: 15px;
+    
+}
+
+.button{
+    margin-bottom: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid blue;
+    border-radius: 50px;
+}
+
+.buton{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: 0.4s;
+
+}
+
+.buton:hover{
+
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    color: black;
+    margin-left: 10px;
+}
+
+
+.buton2{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 30px 10px 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    transition: 0.4s;
+
+}
+
+.buton2:hover{
+
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+
+
+
+}
+
+.search-bar2
+{
+    width:300px;
+    height: 40px;
+    outline:none;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px 10px 20px 20px;
+    border: 1px solid rgb(27, 25, 25);
+    
+
+     
+}
+
+
+
+
